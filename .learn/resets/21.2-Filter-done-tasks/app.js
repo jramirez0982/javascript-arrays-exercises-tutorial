@@ -9,9 +9,4 @@ let tasks = [
   { label: "Make a trip", done: false },
 ];
 
-let taskDone = tasks.filter(function(task){
-  if(task.done==true) return task;
-})
 // Your code here
-
-console.log(taskDone);
